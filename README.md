@@ -12,7 +12,22 @@ Using the Skills CLI:
 npx skills add DanielJamesTronca/apple-iphone-duo-skill -g
 ```
 
-In Codex, ask `$skill-installer` to install `skills/apple-iphone-duo` from this repository, or copy that folder into your Codex skills directory.
+In Codex, ask:
+
+```text
+Use $skill-installer to install skills/apple-iphone-duo from
+https://github.com/DanielJamesTronca/apple-iphone-duo-skill.
+```
+
+For manual installation, copy `skills/apple-iphone-duo` to `~/.agents/skills/apple-iphone-duo` for user-wide discovery, or `.agents/skills/apple-iphone-duo` in a project for repository-scoped discovery. Copy the entire folder, including references and scripts.
+
+To browse it as a Codex plugin, register the repository marketplace:
+
+```sh
+codex plugin marketplace add DanielJamesTronca/apple-iphone-duo-skill
+```
+
+Then open the Plugins Directory in the ChatGPT desktop app, select **Apple iPhone Duo Skill**, and install **Apple iPhone Duo**. Marketplace registration and plugin installation are separate steps.
 
 In Claude Code:
 
@@ -21,7 +36,7 @@ In Claude Code:
 /plugin install apple-iphone-duo@apple-iphone-duo-skill
 ```
 
-The repo includes Codex and Claude plugin manifests. The skill itself is self-contained and needs no Apple login, local Xcode skill, Python package, or network access to read. Xcode is needed when building Apple-platform code; the optional audit helper uses Python 3.10+.
+The repo includes a portable `plugin.json`, Codex and Claude compatibility manifests, and marketplace catalogs. It is distributed through GitHub; inclusion in a public plugin directory is a separate submission. The skill itself is self-contained and needs no Apple login, local Xcode skill, Python package, or network access to read. Xcode is needed when building Apple-platform code; the optional audit helper uses Python 3.10+.
 
 ## Use
 
@@ -34,6 +49,8 @@ asymmetric safe areas, and fold avoidance.
 Use $apple-iphone-duo to implement direction-aware capture and
 outer-display camera accessory content while keeping our iOS 17 fallback.
 ```
+
+The examples above use Codex invocation syntax. In Claude Code, invoke the installed plugin skill as `/apple-iphone-duo:apple-iphone-duo`, followed by your request.
 
 ## Coverage
 

@@ -1,6 +1,7 @@
 ---
 name: apple-iphone-duo
-description: Prepare, implement, or review iPhone Duo support in SwiftUI, UIKit, and AVFoundation apps using Apple's iOS 27/27.1 guidance. Covers resizability, asymmetric safe areas, reserved regions, arrangements, vertical bars, hinge interactions, scene continuity, direction-aware cameras, and camera capture accessories. Use for Duo adoption or resizing failures; not for unrelated WWDC features or generic Liquid Glass styling.
+description: Prepare, implement, or review iPhone Duo support in SwiftUI, UIKit, and AVFoundation apps. Use for Duo adoption, adaptive layouts, resizing failures, and Duo camera workflows.
+license: MIT
 ---
 
 # iPhone Duo
@@ -55,7 +56,7 @@ For a review, report concrete affected behavior, file/line, evidence, and the sm
 
 ## Optional read-only audit
 
-For an existing Swift/Objective-C/Xcode project:
+For an existing Swift/Objective-C/Xcode project, use Python 3.10+ with no additional packages. Resolve `<skill-path>` from this installed `SKILL.md` directory, independently of the project's working directory:
 
 ```sh
 python3 <skill-path>/scripts/audit_resizability.py /path/to/project

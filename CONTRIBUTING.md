@@ -2,6 +2,8 @@
 
 Keep the entrypoint concise and route detailed guidance to its owning reference. Preserve the user's app architecture, deployment targets, and product choices unless a requested change requires otherwise.
 
+For a publication update, keep the version consistent in root `plugin.json`, both compatibility manifests, and the Claude marketplace entry. Keep OpenAI presentation metadata consistent between the portable manifest and its compatibility fallback. The package validator checks these relationships and that installed skills do not depend on files outside their own folder.
+
 For a factual update, link current official documentation, a session timestamp, or an Apple staff reply with its correction history. Confirm symbol names, introduction versions, and platform availability in the selected SDK. Update the research date and source index for sources actually checked; don't mark an inaccessible source as read. Follow the [research maintenance rules](skills/apple-iphone-duo/references/sources.md).
 
 Do not add copied session transcripts, Apple-bundled prompts, private documentation, or authenticated assets. Use original summaries and examples. Label unresolved reports and inference explicitly.

@@ -1,0 +1,20 @@
+{
+  "name": "apple-iphone-duo-skill",
+  "interface": {
+    "displayName": "Apple iPhone Duo Skill"
+  },
+  "plugins": [
+    {
+      "name": "apple-iphone-duo",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design"
+    }
+  ]
+}

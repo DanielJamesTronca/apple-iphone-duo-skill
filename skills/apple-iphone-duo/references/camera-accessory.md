@@ -19,7 +19,7 @@ State that must persist belongs in the shared model, not in accessory-local view
 3. Call `registerSceneAccessory(_:)` on the capture view controller and strongly retain the resulting `UISceneAccessoryRegistration`.
 4. Read observable `isAvailable` while updating the UI (for example in `updateProperties`); set `isEnabled` for the user's toggle. Availability and enablement are different.
 5. In the accessory scene delegate, read `connectionOptions.sceneAccessoryUserInfo`, create a `UIWindow(windowScene:)`, and provide content backed by the shared state.
-6. Call `unregister()` when the app stops offering that accessory, rather than hiding the main interface's controls and leaving registration behind.
+6. Call `unregisterSceneAccessory(registration)` on the registering capture view controller when the app stops offering that accessory, then clear its retained registration. For a temporary user toggle, set `registration.isEnabled` instead. `UISceneAccessoryRegistration` has no `unregister()` method. The [UIKit example](examples/DuoUIKit.swift) type-checks the cleanup API.
 
 The system-assigned Swift scene role is **`.windowCameraCaptureAccessory`**. Don't set it or create a project-level scene configuration entry for it. Ordinary window scene configuration is a different workflow. Scope registration to the capture controller so navigation away withdraws the enhancement. The topmost registration **of a kind** takes precedence; different accessory kinds don't compete. Retain the shared object yourself—`userInfo` isn't the persistence owner. [Registration guide](https://developer.apple.com/documentation/avfoundation/registering-a-camera-capture-accessory-on-iphone-duo).
 

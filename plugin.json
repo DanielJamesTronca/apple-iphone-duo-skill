@@ -1,0 +1,41 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "apple-iphone-duo",
+  "version": "1.0.1",
+  "description": "Prepare and review iPhone Duo apps: resizability, adaptive layouts, vertical bars, scenes, and camera APIs.",
+  "author": {
+    "name": "Daniel James Tronca",
+    "email": "danieljames.forwork@gmail.com",
+    "url": "https://github.com/DanielJamesTronca"
+  },
+  "homepage": "https://github.com/DanielJamesTronca/apple-iphone-duo-skill",
+  "repository": "https://github.com/DanielJamesTronca/apple-iphone-duo-skill",
+  "license": "MIT",
+  "keywords": [
+    "iphone-duo",
+    "swiftui",
+    "uikit",
+    "avfoundation",
+    "ios",
+    "resizability",
+    "accessibility"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Apple iPhone Duo",
+        "shortDescription": "Build adaptive iPhone Duo experiences.",
+        "longDescription": "Apply researched Apple iOS 27/27.1 guidance to iPhone Duo layouts, resizability, reserved regions, arrangements, vertical bars, scene continuity, and direction-aware capture.",
+        "developerName": "Daniel James Tronca",
+        "category": "Design",
+        "capabilities": [],
+        "websiteURL": "https://github.com/DanielJamesTronca/apple-iphone-duo-skill",
+        "defaultPrompt": [
+          "Prepare this iPhone app for iPhone Duo.",
+          "Review this layout for resizing and fold avoidance.",
+          "Implement direction-aware camera capture on iPhone Duo."
+        ]
+      }
+    }
+  }
+}

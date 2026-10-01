@@ -46,6 +46,7 @@ The locally bundled Xcode 27.1 `app-resizability` prompt and all five task refer
 | Reserved-region discussion says inactive regions are always returned | Session and explicit `.includeInactive` query contract; choose options explicitly and filter active geometry |
 | WWDC transcript uses `toolbarMinimizeBehavior` | Installed SDK/public docs use `toolbarMinimizationBehavior(_:for:)` |
 | Objective-C aspect-ratio type appears in prose | Swift imports `AVCaptureDevice.AspectRatio`; original example compiled against SDK |
+| Accessory cleanup described as `registration.unregister()` | Current registration guide and `UIViewController.h` declare `UIViewController.unregisterSceneAccessory(_:)`; corrected guidance and type-checked the original UIKit example |
 | Developer assumes phone sidebar auto-promotes | Framework staff clarifies explicit opt-in is required |
 
 Prefer the selected SDK for declarations and compile-time availability, current API docs/technotes for contracts, recent framework-engineer corrections for behavior, and recorded sessions for design rationale. Clearly label inference where these do not settle a question. A Q&A answer is not reliable merely because it is the first or accepted reply; inspect the full reply history.

@@ -3,6 +3,15 @@ import CoreMotion
 import CoreLocation
 
 #if !targetEnvironment(macCatalyst)
+@available(iOS 27.0, *)
+@MainActor
+func withdrawSceneAccessoryExample(_ registration: UISceneAccessoryRegistration,
+                                   from controller: UIViewController) {
+    // Use the controller that registered it; clear its retained registration afterward.
+    // A temporary user toggle sets registration.isEnabled instead of unregistering.
+    controller.unregisterSceneAccessory(registration)
+}
+
 @available(iOS 27.1, *)
 @MainActor
 func makeDuoArrangement(primary: UIViewController,

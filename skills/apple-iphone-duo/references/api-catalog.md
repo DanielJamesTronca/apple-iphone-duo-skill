@@ -65,7 +65,7 @@ These public symbols exist in the checked SDK, but dedicated public documentatio
 | `UISceneAccessory.cameraCapture(sceneConfiguration:)`, `...(sceneConfiguration:userInfo:)` | UIKit factory for capture content; [registration](https://developer.apple.com/documentation/avfoundation/registering-a-camera-capture-accessory-on-iphone-duo) |
 | `UISceneSession.Role.windowCameraCaptureAccessory` | System-assigned accessory scene role; don't set it |
 
-Base scene accessory registration, `.sceneAccessory`, `SceneAccessoryContent`, `.onAvailabilityChange`, `UISceneAccessoryRegistration`, `registerSceneAccessory`, and `sceneAccessoryUserInfo` were introduced in **iOS 27.0**; the camera-specific kind is **27.1**. These aren't ordinary multi-window APIs.
+Base scene accessory registration, `.sceneAccessory`, `SceneAccessoryContent`, `.onAvailabilityChange`, `UISceneAccessoryRegistration`, `UIViewController.registerSceneAccessory(_:)`, `UIViewController.unregisterSceneAccessory(_:)`, and `sceneAccessoryUserInfo` were introduced in **iOS 27.0**; the camera-specific kind is **27.1**. These aren't ordinary multi-window APIs. Unregister through the owning view controller, not the registration object.
 
 ## Related iOS 27 features used by Duo apps
 
