@@ -1,6 +1,6 @@
 ---
 name: apple-iphone-duo
-description: Prepare, implement, or review iPhone Duo support in SwiftUI, UIKit, and AVFoundation apps. Use for Duo adoption, adaptive layouts, resizing failures, and Duo camera workflows.
+description: Prepare, implement, or review iPhone Duo support in SwiftUI, UIKit, and AVFoundation apps. Use for Duo adoption and Duo-specific layout, resizing, and camera work.
 license: MIT
 ---
 
@@ -39,7 +39,7 @@ Compile-checked [SwiftUI](references/examples/DuoLayout.swift), [UIKit](referenc
 3. Keep system navigation, tabs, sheets, and overflow where they fit the product. Use arrangements for related content, not navigation. If an arrangement hides a child, retain a route to its essential controls/content.
 4. Preserve selection, navigation path, editor drafts, playback, and scroll position across resizing and display transitions. Keep state outside layout branches or accessory views that can disappear. Do not reset view identity with a size class or hinge angle.
 5. Gate new APIs for the project's supported OS and platforms; keep a usable existing fallback. Do not raise deployment targets, enable iPad or multiple-window support, remove orientation restrictions, or change product functionality solely to make Duo examples compile.
-6. Build the affected target and exercise the relevant transition matrix in [testing](references/testing.md). State which checks actually ran, which need hardware, and what remains unverified.
+6. For code changes, build the affected target and exercise the relevant transitions in [testing](references/testing.md). For reviews, run checks needed to substantiate findings; for documentation-only questions, consult relevant sources. State which checks actually ran, which need hardware, and what remains unverified.
 
 For a review, report concrete affected behavior, file/line, evidence, and the smallest appropriate fix. A review request does not imply permission to rewrite unrelated UI. For implementation, complete the authorized change and its relevant validation.
 

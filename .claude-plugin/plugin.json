@@ -1,7 +1,7 @@
 {
   "name": "apple-iphone-duo",
   "description": "Prepare and review iPhone Duo apps: resizability, adaptive layouts, vertical bars, scenes, and camera APIs.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": {
     "name": "Daniel James Tronca"
   },
