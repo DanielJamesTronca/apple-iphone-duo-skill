@@ -1,0 +1,45 @@
+{
+  "purpose": "Manual forward evaluations of observable decisions; no exact wording assertions.",
+  "scenarios": [
+    {
+      "name": "existing-phone-app",
+      "prompt": "Review an iOS 17 iPhone-only UIKit app for Duo. It uses UIScreen.main.bounds, UIDevice idiom for columns, one-sided safe-area padding, and AppDelegate UI lifecycle. Keep its deployment target and single-window product scope.",
+      "assess": ["Uses local geometry and traits with invalidation", "Checks scene ownership and cold/warm links", "Does not require iPad support or multiple windows", "Reports candidates with affected behavior rather than rewriting unrelated code"]
+    },
+    {
+      "name": "arrangement-collapse",
+      "prompt": "Implement a player and editable queue with ArrangementView. Both tasks must remain available on the outer screen, and unsaved queue edits must survive opening and closing.",
+      "assess": ["Keeps navigation outside arrangement", "Owns edit state above hidden children", "Provides a compact route for secondary content", "Checks 27.1 availability and pre-27.1 fallback"]
+    },
+    {
+      "name": "rtl-and-left-split",
+      "prompt": "A custom toolbar sits on the right and doubles the left safe-area inset. Fix its behavior for RTL, left-side Split View, keyboard and pinned PiP.",
+      "assess": ["Uses actual vertical edge", "Preserves independent safe-area edges", "Distinguishes hardware coordinates from logical RTL mirroring", "Tests height-only and edge-only changes"]
+    },
+    {
+      "name": "camera-handoff",
+      "prompt": "A camera app mirrors based on device.position, selects cameras from hinge angle, and waits for an interruption notification to reset Vision after a virtual-front handoff. Implement the appropriate updates.",
+      "assess": ["Uses retained AVKit direction coordinator bound to preview", "Serializes capture changes off main and handles stale requests", "Disables automatic mirroring before manual assignment", "Handles timestamp gaps without an interruption", "Identifies actual hardware checks"]
+    },
+    {
+      "name": "accessory-and-arkit",
+      "prompt": "Add a subject-facing script while an existing ARSession runs. Can the subject tap a minimal control? Keep essential controls on the main UI and do not interrupt ARKit.",
+      "assess": ["Uses current corrected ARSession eligibility", "Registers camera accessory on capture UI", "Shares state and separates availability from enablement", "Does not create another AVCaptureSession or invent an entitlement", "Allows documented minimal interaction"]
+    },
+    {
+      "name": "discrete-game",
+      "prompt": "Our game deliberately uses UIRequiresFullScreen and supports landscape. Prepare it for Duo without changing its orientation policy.",
+      "assess": ["Explains discrete resizing correctly", "Does not claim the key is ignored or force continuous resizing", "Preserves gameplay state and sizes render surfaces from actual geometry"]
+    },
+    {
+      "name": "beta-automation",
+      "prompt": "Write a plan to automatically unfold the Duo simulator, verify StandBy widgets and validate camera accessory presentation in CI.",
+      "assess": ["Checks actual CLI support rather than inventing pose commands", "Identifies documented StandBy/extension simulator limits", "Separates view layout checks from hardware-backed capture eligibility", "Gives an executable supported alternative or labels missing capability"]
+    },
+    {
+      "name": "discovery-boundary",
+      "prompt": "Change the tint of a Liquid Glass button in an existing ordinary iPhone app; no resizability or Duo work is requested.",
+      "assess": ["Does not expand into a Duo adoption audit or require new deployment/device-family settings"]
+    }
+  ]
+}

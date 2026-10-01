@@ -1,0 +1,4 @@
+interface:
+  display_name: "Apple iPhone Duo"
+  short_description: "Build adaptive iPhone Duo experiences."
+  default_prompt: "Use $apple-iphone-duo to prepare, implement, or review this app for iPhone Duo, preserving its supported OS versions and continuous state across resizing."

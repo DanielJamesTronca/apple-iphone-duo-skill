@@ -1,0 +1,444 @@
+{
+  "sdk": "Xcode 27.1 beta (27A9269)",
+  "checked": "2026-10-01",
+  "documentation": [
+    {
+      "title": "Designing for iPhone Duo",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/designing-for-iphone-duo",
+      "ios_introduced": null,
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "Registering a camera capture accessory on iPhone Duo",
+      "url": "https://developer.apple.com/documentation/AVFoundation/registering-a-camera-capture-accessory-on-iphone-duo",
+      "ios_introduced": null,
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "Choosing a camera by the direction it faces",
+      "url": "https://developer.apple.com/documentation/AVKit/choosing-a-camera-by-the-direction-it-faces",
+      "ios_introduced": null,
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "Preparing your app for iPhone Duo",
+      "url": "https://developer.apple.com/documentation/TechnologyOverviews/preparing-your-app-for-iphone-duo",
+      "ios_introduced": null,
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "TN3192: Migrating your iPad app from the deprecated UIRequiresFullScreen key",
+      "url": "https://developer.apple.com/documentation/Technotes/tn3192-Migrating-your-app-from-the-deprecated-UIRequiresFullScreen-key",
+      "ios_introduced": null,
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "TN3208: Preparing your app\u2019s launch screen to meet App Store requirements",
+      "url": "https://developer.apple.com/documentation/Technotes/tn3208-preparing-your-apps-launch-screen-to-meet-app-store-requirements",
+      "ios_introduced": null,
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "TN3210: Optimizing your app for iPhone Mirroring",
+      "url": "https://developer.apple.com/documentation/Technotes/tn3210-optimizing-your-app-for-iphone-mirroring",
+      "ios_introduced": null,
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "Adapting your app when traits change",
+      "url": "https://developer.apple.com/documentation/UIKit/adapting-your-app-when-traits-change",
+      "ios_introduced": null,
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "Automatic trait tracking",
+      "url": "https://developer.apple.com/documentation/UIKit/automatic-trait-tracking",
+      "ios_introduced": null,
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "Xcode 27.1 Beta Release Notes",
+      "url": "https://developer.apple.com/documentation/Xcode-Release-Notes/xcode-27_1-release-notes",
+      "ios_introduced": null,
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "Running your app on simulated or physical devices",
+      "url": "https://developer.apple.com/documentation/Xcode/running-your-app-on-simulated-or-physical-devices",
+      "ios_introduced": null,
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "setDynamicAspectRatio(_:completionHandler:)",
+      "url": "https://developer.apple.com/documentation/avfoundation/avcapturedevice/setdynamicaspectratio(_:completionhandler:)",
+      "ios_introduced": "26.0",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "AVCaptureDeviceDirectionCoordinator",
+      "url": "https://developer.apple.com/documentation/avkit/avcapturedevicedirectioncoordinator",
+      "ios_introduced": "27.1",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "headingBody",
+      "url": "https://developer.apple.com/documentation/corelocation/cllocationmanager/headingbody",
+      "ios_introduced": "27.0",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "deviceMotionBody",
+      "url": "https://developer.apple.com/documentation/coremotion/cmmotionmanager/devicemotionbody",
+      "ios_introduced": "27.0",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "ArrangementView",
+      "url": "https://developer.apple.com/documentation/swiftui/arrangementview",
+      "ios_introduced": "27.1",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "ArrangementViewStyle",
+      "url": "https://developer.apple.com/documentation/swiftui/arrangementviewstyle",
+      "ios_introduced": "27.1",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "CameraCaptureAccessory",
+      "url": "https://developer.apple.com/documentation/swiftui/cameracaptureaccessory",
+      "ios_introduced": "27.1",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "toolbarVerticalEdge",
+      "url": "https://developer.apple.com/documentation/swiftui/environmentvalues/toolbarverticaledge",
+      "ios_introduced": "27.1",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "GeometryProxy",
+      "url": "https://developer.apple.com/documentation/swiftui/geometryproxy",
+      "ios_introduced": "13.0",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "reservedRegions(kind:options:layoutDirectionBehavior:)",
+      "url": "https://developer.apple.com/documentation/swiftui/geometryproxy/reservedregions(kind:options:layoutdirectionbehavior:)",
+      "ios_introduced": "27.1",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "GeometryReader",
+      "url": "https://developer.apple.com/documentation/swiftui/geometryreader",
+      "ios_introduced": "13.0",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "HStack",
+      "url": "https://developer.apple.com/documentation/swiftui/hstack",
+      "ios_introduced": "13.0",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "NavigationSplitView",
+      "url": "https://developer.apple.com/documentation/swiftui/navigationsplitview",
+      "ios_introduced": "16.0",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "NavigationStack",
+      "url": "https://developer.apple.com/documentation/swiftui/navigationstack",
+      "ios_introduced": "16.0",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "PresentationPlacement",
+      "url": "https://developer.apple.com/documentation/swiftui/presentationplacement",
+      "ios_introduced": "27.0",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "ReservedRegion",
+      "url": "https://developer.apple.com/documentation/swiftui/reservedregion",
+      "ios_introduced": "27.1",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "SplitArrangementViewStyle",
+      "url": "https://developer.apple.com/documentation/swiftui/splitarrangementviewstyle",
+      "ios_introduced": "27.1",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "axisBehavior(_:)",
+      "url": "https://developer.apple.com/documentation/swiftui/toolbarcontent/axisbehavior(_:)",
+      "ios_introduced": "27.1",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "visibilityPriority(_:)",
+      "url": "https://developer.apple.com/documentation/swiftui/toolbarcontent/visibilitypriority(_:)",
+      "ios_introduced": "27.0",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "ToolbarItem",
+      "url": "https://developer.apple.com/documentation/swiftui/toolbaritem",
+      "ios_introduced": "14.0",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "ToolbarItemPlacement",
+      "url": "https://developer.apple.com/documentation/swiftui/toolbaritemplacement",
+      "ios_introduced": "14.0",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "cancellationAction",
+      "url": "https://developer.apple.com/documentation/swiftui/toolbaritemplacement/cancellationaction",
+      "ios_introduced": "14.0",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "topBarPinnedTrailing",
+      "url": "https://developer.apple.com/documentation/swiftui/toolbaritemplacement/topbarpinnedtrailing",
+      "ios_introduced": "27.0",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "ToolbarItemVisibilityPriority",
+      "url": "https://developer.apple.com/documentation/swiftui/toolbaritemvisibilitypriority",
+      "ios_introduced": "27.0",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "ToolbarOverflowMenu",
+      "url": "https://developer.apple.com/documentation/swiftui/toolbaroverflowmenu",
+      "ios_introduced": "27.0",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "backgroundExtensionEffect()",
+      "url": "https://developer.apple.com/documentation/swiftui/view/backgroundextensioneffect()",
+      "ios_introduced": "26.0",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "onHingeChange(isEnabled:_:)",
+      "url": "https://developer.apple.com/documentation/swiftui/view/onhingechange(isenabled:_:)",
+      "ios_introduced": "27.1",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "presentationPlacement(_:)",
+      "url": "https://developer.apple.com/documentation/swiftui/view/presentationplacement(_:)",
+      "ios_introduced": "27.0",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "safeAreaBar(edge:alignment:spacing:content:)",
+      "url": "https://developer.apple.com/documentation/swiftui/view/safeareabar(edge:alignment:spacing:content:)",
+      "ios_introduced": "26.0",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "splitArrangementLayoutRatio(_:)",
+      "url": "https://developer.apple.com/documentation/swiftui/view/splitarrangementlayoutratio(_:)",
+      "ios_introduced": "27.1",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "splitArrangementLayoutSize(minWidth:idealWidth:maxWidth:minHeight:idealHeight:maxHeight:)",
+      "url": "https://developer.apple.com/documentation/swiftui/view/splitarrangementlayoutsize(minwidth:idealwidth:maxwidth:minheight:idealheight:maxheight:)",
+      "ios_introduced": "27.1",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "toolbar(content:)",
+      "url": "https://developer.apple.com/documentation/swiftui/view/toolbar(content:)",
+      "ios_introduced": "14.0",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "toolbarMinimizationBehavior(_:for:)",
+      "url": "https://developer.apple.com/documentation/swiftui/view/toolbarminimizationbehavior(_:for:)",
+      "ios_introduced": "27.0",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "toolbarMinimizationRestoration(_:for:)",
+      "url": "https://developer.apple.com/documentation/swiftui/view/toolbarminimizationrestoration(_:for:)",
+      "ios_introduced": "27.0",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "toolbarMinimizationSafeAreaAdjustment(_:for:)",
+      "url": "https://developer.apple.com/documentation/swiftui/view/toolbarminimizationsafeareaadjustment(_:for:)",
+      "ios_introduced": "27.0",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "toolbarVerticalBehavior(_:)",
+      "url": "https://developer.apple.com/documentation/swiftui/view/toolbarverticalbehavior(_:)",
+      "ios_introduced": "27.1",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "VStack",
+      "url": "https://developer.apple.com/documentation/swiftui/vstack",
+      "ios_introduced": "13.0",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "ZStack",
+      "url": "https://developer.apple.com/documentation/swiftui/zstack",
+      "ios_introduced": "13.0",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "UIArrangementViewController",
+      "url": "https://developer.apple.com/documentation/uikit/uiarrangementviewcontroller",
+      "ios_introduced": "27.1",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "UIBackgroundExtensionView",
+      "url": "https://developer.apple.com/documentation/uikit/uibackgroundextensionview",
+      "ios_introduced": "26.0",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "axisBehavior",
+      "url": "https://developer.apple.com/documentation/uikit/uibarbuttonitem/axisbehavior-swift.property",
+      "ios_introduced": "27.1",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "visibilityPriority",
+      "url": "https://developer.apple.com/documentation/uikit/uibarbuttonitem/visibilitypriority",
+      "ios_introduced": "27.0",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "userInterfaceIdiom",
+      "url": "https://developer.apple.com/documentation/uikit/uidevice/userinterfaceidiom",
+      "ios_introduced": "3.2",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "UIHingeInteraction",
+      "url": "https://developer.apple.com/documentation/uikit/uihingeinteraction",
+      "ios_introduced": "27.1",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "UIInterfaceOrientation",
+      "url": "https://developer.apple.com/documentation/uikit/uiinterfaceorientation",
+      "ios_introduced": null,
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "UINavigationBar",
+      "url": "https://developer.apple.com/documentation/uikit/uinavigationbar",
+      "ios_introduced": "2.0",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "additionalOverflowItems",
+      "url": "https://developer.apple.com/documentation/uikit/uinavigationitem/additionaloverflowitems",
+      "ios_introduced": "16.0",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "leadingItemGroups",
+      "url": "https://developer.apple.com/documentation/uikit/uinavigationitem/leadingitemgroups",
+      "ios_introduced": "16.0",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "overflowPresentationSource",
+      "url": "https://developer.apple.com/documentation/uikit/uinavigationitem/overflowpresentationsource",
+      "ios_introduced": "16.0",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "pinnedTrailingGroup",
+      "url": "https://developer.apple.com/documentation/uikit/uinavigationitem/pinnedtrailinggroup",
+      "ios_introduced": "16.0",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "UISheetPresentationController.Placement",
+      "url": "https://developer.apple.com/documentation/uikit/uisheetpresentationcontroller/placement",
+      "ios_introduced": "27.0",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "preferredPlacement",
+      "url": "https://developer.apple.com/documentation/uikit/uisheetpresentationcontroller/preferredplacement",
+      "ios_introduced": "27.0",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "UITabBar",
+      "url": "https://developer.apple.com/documentation/uikit/uitabbar",
+      "ios_introduced": "2.0",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "UIToolbar",
+      "url": "https://developer.apple.com/documentation/uikit/uitoolbar",
+      "ios_introduced": "2.0",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "horizontalSizeClass",
+      "url": "https://developer.apple.com/documentation/uikit/uitraitcollection/horizontalsizeclass",
+      "ios_introduced": "8.0",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "verticalBarEdge",
+      "url": "https://developer.apple.com/documentation/uikit/uitraitcollection/verticalbaredge",
+      "ios_introduced": "27.1",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "verticalSizeClass",
+      "url": "https://developer.apple.com/documentation/uikit/uitraitcollection/verticalsizeclass",
+      "ios_introduced": "8.0",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "layoutGuide(for:)",
+      "url": "https://developer.apple.com/documentation/uikit/uiview/layoutguide(for:)",
+      "ios_introduced": "26.0",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "UIView.ReservedRegion",
+      "url": "https://developer.apple.com/documentation/uikit/uiview/reservedregion",
+      "ios_introduced": "27.1",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "reservedRegions(kind:options:)",
+      "url": "https://developer.apple.com/documentation/uikit/uiview/reservedregions(kind:options:)",
+      "ios_introduced": "27.1",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "preferredVerticalBarBehavior",
+      "url": "https://developer.apple.com/documentation/uikit/uiviewcontroller/preferredverticalbarbehavior",
+      "ios_introduced": "27.1",
+      "retrieved": "2026-10-01"
+    },
+    {
+      "title": "WidgetFamily.systemExtraLarge",
+      "url": "https://developer.apple.com/documentation/widgetkit/widgetfamily/systemextralarge",
+      "ios_introduced": "15.0",
+      "retrieved": "2026-10-01"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "apple-iphone-duo",
+  "description": "Prepare and review iPhone Duo apps: resizability, adaptive layouts, vertical bars, scenes, and camera APIs.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel James Tronca"
+  },
+  "homepage": "https://github.com/DanielJamesTronca/apple-iphone-duo-skill",
+  "repository": "https://github.com/DanielJamesTronca/apple-iphone-duo-skill",
+  "license": "MIT",
+  "keywords": [
+    "iphone-duo",
+    "swiftui",
+    "uikit",
+    "avfoundation",
+    "ios",
+    "resizability",
+    "accessibility"
+  ]
+}
